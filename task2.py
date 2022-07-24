@@ -19,7 +19,7 @@ try:
                 mult.append(a)
             return mult
         else:
-            return print('у числа меньше 2 нет простых множителей')
+            return 'у числа меньше 2 нет простых множителей'
 
     print(SimpleMultiplier(N, multiplier, counter))
 
