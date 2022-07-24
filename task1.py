@@ -5,3 +5,18 @@
 
 - при $d = 0.001, π = 3.141.$    $10^{-1} ≤ d ≤10^{-10}$
 '''
+
+import math
+
+
+A = float(input("A: "))
+B = float(input("B: "))
+d = int(input("Количестов знаков после запятой: "))
+
+res = A / B
+
+print(f"Результат деления {A} на {B} равен {round(res, d)}")
+print(f"Число Пи: {round(math.pi, d)}")
+
+
+
